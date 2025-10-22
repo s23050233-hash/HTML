@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>網頁標題</title>
+    <style>
+        body {
+            margin: 0;
+        }
+        h1 {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            font-size: 40px;
+            color: rgb(50, 50, 50);
+            padding-bottom: 100px;
+        }
+        .video-back {
+            position: fixed;
+            top: 0;
+            left: 0;
+            min-width: 100%;
+            min-height: 100%;
+        }
+        .info {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, 50%);
+            font-size: 24px;
+            color: white;
+            text-align: center;
+            font-family: Arial, sans-serif;
+        }
+    </style>
+</head>
+<body>
+    <h1>這是標題</h1>
+    <video class="video-back" autoplay loop muted>
+        <source src="c:\Users\user\Downloads\3259896-uhd_3840_2160_30fps.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+    </video>
+
+    <!-- 班級、座號、姓名 -->
+    <div class="info">
+        <p>資三乙</p>
+        <p>31</p>
+        <p>鄞琪穎</p>
+    </div>
+</body>
+</html>
+
